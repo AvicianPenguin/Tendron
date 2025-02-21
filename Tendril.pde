@@ -19,7 +19,7 @@ class Tendril
   }
   public void show()
   {
-    stroke(myNumSegments);
+    stroke(color(255-4*myNumSegments,200-18*myNumSegments,50+4*myNumSegments));
     double startX = myX;
     double startY = myY;
     for(int i = 0; i<=myNumSegments; i++)
